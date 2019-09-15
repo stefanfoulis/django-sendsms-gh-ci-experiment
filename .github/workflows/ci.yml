@@ -1,3 +1,5 @@
+name: Run Tests
+
 on: [push]
 
 jobs:
@@ -20,3 +22,5 @@ jobs:
         pip install tox tox-gh-actions coveralls
     - name: Test with tox
       run: tox
+    - name: Whereami
+        run: ls -lAF
