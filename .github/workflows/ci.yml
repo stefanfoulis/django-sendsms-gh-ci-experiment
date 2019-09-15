@@ -22,7 +22,3 @@ jobs:
         pip install tox-gh-actions coveralls
     - name: Test with tox
       run: tox
-    - name: Whereami
-      run: ls -lAF
-    - name: Env
-      run: env
