@@ -24,3 +24,5 @@ jobs:
       run: tox
     - name: Whereami
       run: ls -lAF
+    - name: Env
+      run: env
