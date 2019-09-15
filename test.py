@@ -50,9 +50,6 @@ class TestApi(unittest.TestCase):
         res = obj.send()
         self.assertEqual(res, 1)
 
-    def test_that_fails(self):
-        self.assertTrue(False)
-
 
 class RQBackendTest(SimpleTestCase):
     @mock.patch("sendsms.backends.rq.send_messages")
